@@ -1,18 +1,22 @@
 .product {
   display: flex;
   flex-direction: column;
-  border: 1px solid var(--tg-theme-button-color);
   padding: 15px;
   width: 170px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .title {
+  margin-top: 5px;
   font-size: 18px;
   font-family: "Alegreya", serif;
 }
 
 .description {
+  margin-top: 24px;
   font-size: 0.8em;
+  color: #C4C4C4;
 }
 
 .add-btn {

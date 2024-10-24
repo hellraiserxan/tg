@@ -6,12 +6,12 @@ const ProductItem = ({product,className,onAdd}) => {
     const onAddHandler = () => {
         onAdd(product);
     }
-    return ( <div className = {'product' + className}>
+    return ( <div className = {'product'}>
         <img src = {img} className={'img'}/>
         <div className = {'title'}>{product.title}</div>
         <div className = {'description'}> {product.description}</div>
         <div>
-            <span>Стоимость: <strong>{product.price}</strong></span>
+            <span><strong>{product.price}</strong> рублей</span>
         </div>
         {/* <Button className = {'add-btn'} onClick = {onAddHandler}>
             Добавить в корзину
