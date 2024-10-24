@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700&subset=latin,cyrillic);
 * {
   margin: 0;
   padding: 0;
@@ -6,5 +7,6 @@
 
 body {
   background-color:#000000;
-  /* color: var(--tg-theme-text-color); */
+  color: #FFFFFF;
+  font-family: "Alegreya", serif;;
 }

@@ -10,7 +10,7 @@ const Header = () => {
         className = {'busket'} />
         <img
         src = {Menu}
-        className = {'busket'} />
+        className = {'menu'} />
     </div> );
 }
  

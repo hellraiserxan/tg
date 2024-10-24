@@ -5,12 +5,16 @@
 	padding: 15px;
 	width: 170px;
 }
-.img {
-	width: 100%;
-	background: lightgray;
-	height: 100px;
-	margin: 0 auto;
-	//background: var(--tg-theme-button-color);
+// .img {
+// 	width: 100%;
+// 	background: lightgray;
+// 	height: 100px;
+// 	margin: 0 auto;
+// 	//background: var(--tg-theme-button-color);
+// }
+.title{
+    font-size: 18px;
+    font-family: "Alegreya", serif;;
 }
 .description {
 	font-size: 0.8em;

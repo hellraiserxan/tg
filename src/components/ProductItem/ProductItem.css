@@ -6,11 +6,9 @@
   width: 170px;
 }
 
-.img {
-  width: 100%;
-  background: lightgray;
-  height: 100px;
-  margin: 0 auto;
+.title {
+  font-size: 18px;
+  font-family: "Alegreya", serif;
 }
 
 .description {

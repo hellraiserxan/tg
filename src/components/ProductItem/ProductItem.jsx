@@ -1,13 +1,13 @@
 import React from 'react';
 //import Button from "../Button/Button"
 import "./ProductItem.css"
-
+import img from "../../assets/img/74 2.jpg"
 const ProductItem = ({product,className,onAdd}) => {
     const onAddHandler = () => {
         onAdd(product);
     }
     return ( <div className = {'product' + className}>
-        <img className={'img'}/>
+        <img src = {img} className={'img'}/>
         <div className = {'title'}>{product.title}</div>
         <div className = {'description'}> {product.description}</div>
         <div>
