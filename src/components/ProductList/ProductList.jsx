@@ -62,7 +62,7 @@ const ProductList = () => {
         setAddedItems(newItems)
     }
     return (<div> 
-    <span className = 'text_menu'>Menu</span>
+    <div className = 'text_menu'>МЕНЮ</div>
     <div className = {'menu_list'}>{menu.map(item=>(<span className={'menu_list_item'}>{item.title}</span>))}</div>
     <div className = {'list'}>
         {products.map(item =>(

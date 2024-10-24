@@ -5,31 +5,33 @@
 	width: 170px;
     text-align: center;
     margin: 0 auto;
+    align-items: center;
 }
-// .img {
-// 	width: 100%;
-// 	background: lightgray;
-// 	height: 100px;
-// 	margin: 0 auto;
-// 	//background: var(--tg-theme-button-color);
-// }
+.img{
+    width: 180px;
+    height: 140px;
+}
 .title{
     margin-top: 5px;
     font-size: 18px;
-    font-family: "Alegreya", serif;;
+    font-family: "Alegreya", serif;
+    width: 200px;
 }
 .description {
     margin-top: 24px;
 	font-size: 0.8em;
     color: #C4C4C4;
+    width: 200px;
 }
 .add-btn {
 	width: 100%;
 }
 .button{
-    width: 96px;
+    width: 120px;
+    color: #000000;
     height: 35px;
     background-color: #FDBCBC;
     border-radius: 9px;
     margin-top: 29px;
+    
 }

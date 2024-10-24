@@ -6,25 +6,25 @@
 	margin: 0 auto;
 }
 .menu_list{
-	margin-top: 8px;
-	width: 100%;
+	margin-top: 20px;
+	//width: 100%;
 	overflow-x: 'scroll';
 	white-space: "nowrap";
 	display: flex;
-	justify-content: center;
-	gap: 2px;
-	margin-left: 50px;
+	justify-content: left;
+	gap: 3px;
+	margin-left: 380px;
 	.menu_list_item{
 		background-color: #E4FDBC;
-		border-radius: 4px;
-		width: 150px;
-		height: 33px;
+		border-radius: 12px;
+		width: 300px;
+		height: 40px;
 		color: #000000;
 		text-align: center;
 		padding: 6px 7px;
 	}
 }
 .text_menu{
-	margin-left: 152px;
-	margin-top: 8px;
+	margin-left: 380px;
+	margin-top: 30px;
 }
