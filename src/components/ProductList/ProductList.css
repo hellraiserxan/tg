@@ -14,7 +14,6 @@
   display: flex;
   justify-content: left;
   gap: 3px;
-  margin-left: 380px;
 }
 .menu_list .menu_list_item {
   background-color: #E4FDBC;
@@ -27,6 +26,5 @@
 }
 
 .text_menu {
-  margin-left: 380px;
   margin-top: 30px;
 }/*# sourceMappingURL=ProductList.css.map */
