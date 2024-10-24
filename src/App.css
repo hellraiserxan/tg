@@ -5,6 +5,6 @@
 }
 
 body {
-  background:rgba(255, 255, 255, 0) ;
-  color: var(--tg-theme-text-color);
+  background-color:#000000;
+  /* color: var(--tg-theme-text-color); */
 }

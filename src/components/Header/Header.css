@@ -4,8 +4,7 @@
   display: flex;
   align-items: center;
   padding: 0 20px;
-}
-
-.username {
-  margin-left: auto;
+  background: #262626;
+  margin-top: 35px;
+  justify-content: right;
 }/*# sourceMappingURL=Header.css.map */
