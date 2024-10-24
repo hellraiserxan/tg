@@ -1,9 +1,33 @@
 .list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin: 0 auto;
 }
 
 .item {
   margin: 0 auto;
+}
+
+.menu_list {
+  margin-top: 8px;
+  width: 100%;
+  overflow-x: "scroll";
+  white-space: "nowrap";
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  margin-left: 50px;
+}
+.menu_list .menu_list_item {
+  background-color: #E4FDBC;
+  border-radius: 4px;
+  width: 150px;
+  height: 33px;
+  color: #000000;
+  text-align: center;
+  padding: 6px 7px;
+}
+
+.text_menu {
+  margin-left: 152px;
+  margin-top: 8px;
 }/*# sourceMappingURL=ProductList.css.map */

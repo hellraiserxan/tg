@@ -21,4 +21,12 @@
 
 .add-btn {
   width: 100%;
+}
+
+.button {
+  width: 96px;
+  height: 35px;
+  background-color: #FDBCBC;
+  border-radius: 9px;
+  margin-top: 29px;
 }/*# sourceMappingURL=ProductItem.css.map */
