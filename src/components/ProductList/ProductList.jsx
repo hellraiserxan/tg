@@ -4,7 +4,7 @@ import React, {useState,
 } from 'react';
 import './ProductList.css'
 import ProductItem from '../ProductItem/ProductItem';
-import img1 from "../../assets/img/74 2.jpg";
+import img1 from "../../assets/img/74 2.svg";
 import img2 from "../../assets/img/74 2.png";
 import img3 from "../../assets/img/74 3.png";
 import img4 from "../../assets/img/74 4.png";
