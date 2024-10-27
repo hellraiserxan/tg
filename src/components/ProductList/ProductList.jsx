@@ -9,6 +9,10 @@ import img2 from "../../assets/img/74 3.svg";
 import img3 from "../../assets/img/74 4.svg";
 import img4 from "../../assets/img/74 5.svg";
 
+import new1 from "../../assets/img/Rectangle 15.svg"
+import new2 from "../../assets/img/Rectangle 16.svg"
+import new3 from "../../assets/img/Rectangle 17.svg"
+
 const products = [
     {id: '1', title: 'УНАГИ ЧУКА', price: '340 р', description: 'сыр моцарелла, сливки, куриное филе копченое, шампиньоны',img:img1},
     {id: '2', title: 'СЯКЕ УНАГИ МИКС', price:'600 р' , description: 'сыр сливочный, лосось, угорь, огурец, соус спайс, соус терияки',img:img2},
@@ -26,6 +30,11 @@ const menu = [
     {id:'1', title: 'Закузски'},
     {id:'1', title: 'Десерты'},
     {id:'1', title: 'Напитки'}
+]
+const newProducts = [
+    {id:'1', title: 'Жульен', price: "340 р" , new: new1},
+    {id:'1', title: 'Салат с говядиной', price: "469 р", new: new2},
+    {id:'1', title: 'Суши с сыром', price: "480 р" , new:new3},
 ]
 const getTotalPrice = (items = []) =>{
     return items.reduce((acc,item) => {
@@ -62,8 +71,21 @@ const ProductList = () => {
         setAddedItems(newItems)
     }
     return (<div> 
+        <div className = 'text_new'>НОВИНКИ</div>
+    <div className = "newprod_list">
+        {newProducts.map(newProd=>(<div className = "newProd">
+            <img
+            src = {newProd.new}
+            className = "new_img"
+            />
+            <div className = "descrip">
+            <div>{newProd.title}</div>
+            <div>{newProd.price}</div>
+            </div>
+        </div>))}
+    </div>
     <div className = 'text_menu'>МЕНЮ</div>
-    <div className = {'menu_list'}>{menu.map(item=>(<span className={'menu_list_item'}>{item.title}</span>))}</div>
+    <div className = {'menu_list'}>{menu.map(item=>(<div className={'menu_list_item'}><strong>{item.title}</strong></div>))}</div>
     <div className = {'list'}>
         {products.map(item =>(
             <ProductItem

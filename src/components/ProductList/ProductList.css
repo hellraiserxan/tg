@@ -3,14 +3,9 @@
   grid-template-columns: repeat(2, 1fr);
 }
 
-.item {
-  margin: 0 auto;
-}
-
 .menu_list {
   margin-top: 20px;
-  overflow-x: "scroll";
-  white-space: "nowrap";
+  width: 100%;
   display: flex;
   justify-content: left;
   gap: 3px;
@@ -18,14 +13,41 @@
 .menu_list .menu_list_item {
   background-color: #E4FDBC;
   border-radius: 12px;
-  width: 300px;
+  width: 200px;
   height: 60px;
   color: #000000;
   text-align: center;
-  padding: 6px 7px;
+  padding: 17px 7px;
 }
 
 .text_menu {
   margin-top: 30px;
   margin-left: 10px;
+}
+
+.newprod_list {
+  display: flex;
+  width: 100%;
+  gap: 5px;
+  margin-top: 20px;
+}
+.newprod_list .newProd {
+  width: 300px;
+  background: #2B1011;
+  display: flex;
+  flex-direction: row;
+}
+.newprod_list .newProd .descrip {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.newprod_list .newProd .new_img {
+  width: 80px;
+  margin: 0 40px 0 20px;
+}
+
+.text_new {
+  margin-top: 80px;
 }/*# sourceMappingURL=ProductList.css.map */
