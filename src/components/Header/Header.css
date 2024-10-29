@@ -37,7 +37,7 @@
 .menu_listt {
   position: absolute;
   width: 80px;
-  height: 200px;
+  height: 180px;
   right: 10px;
   top: 50px;
   background-color: #a79c9c;
@@ -54,6 +54,8 @@
 
 .menu_list_item {
   text-align: justify;
+  list-style-type: none;
+  font-family: "Alegreya", serif;
 }
 .menu_list_item .menu_item {
   margin-top: 10px;
