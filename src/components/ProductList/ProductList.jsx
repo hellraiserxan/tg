@@ -12,6 +12,7 @@ import img4 from "../../assets/img/74 5.svg";
 import new1 from "../../assets/img/Rectangle 15.svg"
 import new2 from "../../assets/img/Rectangle 16.svg"
 import new3 from "../../assets/img/Rectangle 17.svg"
+import Header from '../Header/Header';
 
 const products = [
     {id: '1', title: 'УНАГИ ЧУКА', price: '340 р', description: 'сыр моцарелла, сливки, куриное филе копченое, шампиньоны',img:img1},
@@ -43,6 +44,11 @@ const getTotalPrice = (items = []) =>{
 }
 
 const ProductList = () => {
+    const [cartItems, setCartItems] = useState(0);
+    const addToCart = () =>{
+        setCartItems(prevItems => prevItems+1);
+        console.log(cartItems)
+    }
     const [addedItems, setAddedItems] = useState([]);
     const onSendData = useCallback(()=>{
         const data = {
@@ -71,6 +77,8 @@ const ProductList = () => {
         setAddedItems(newItems)
     }
     return (<div> 
+         <Header
+         cartItems = {cartItems}/>
         <div className = 'text_new'>НОВИНКИ</div>
     <div className = "newprod_list">
         {newProducts.map(newProd=>(<div className = "newProd">
@@ -90,7 +98,7 @@ const ProductList = () => {
         {products.map(item =>(
             <ProductItem
                 product = {item}
-                onAdd = {onAdd}
+                addToCart = {addToCart}
                 className = {'item'}
             />
         ))}
