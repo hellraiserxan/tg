@@ -56,6 +56,8 @@
   text-align: justify;
   list-style-type: none;
   font-family: "Alegreya", serif;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0);
 }
 .menu_list_item .menu_item {
   margin-top: 10px;
