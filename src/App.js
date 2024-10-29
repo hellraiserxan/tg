@@ -7,6 +7,10 @@ function App() {
   // useEffect(()=>{
   //   tg.ready();
   // },[]);
+  window.addEventListener("scroll", function() {
+    window.scrollTo(0, window.scrollY); 
+});
+
   return (
     <div className="App">
       <Header />
