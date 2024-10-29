@@ -8,5 +8,6 @@
 body {
   background-color:#000000;
   color: #FFFFFF;
-  font-family: "Alegreya", serif;;
+  font-family: "Alegreya", serif;
+  overflow-x: hidden;
 }
