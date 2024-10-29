@@ -21,14 +21,16 @@
     margin-right: 14px;
 }
 .badge{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	background-color: #ee380a;
 	width: 15px;
 	height: 14px;
 	border-radius:50%;
-	text-align: center;
-	position: relative;
-	top: -8px;
-	right:22px;
+	position: absolute;
+	top: 13px;
+	right:63px;
 	
 	//align-items: center;
 	font-size:14px;
